@@ -86,7 +86,7 @@ root.geometry("290x216")
 root.title("Calendar")
 root.resizable(False, False)
 
-today: dt.datetime = dt.date.today()
+today: dt.date = dt.date.today()
 month: int = today.month
 year: int = today.year
 
